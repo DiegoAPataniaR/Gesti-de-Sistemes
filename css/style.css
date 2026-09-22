@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block {
+    border: 3px solid black;
+    padding: 50px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+}
+
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding:5px;
+}
+
+.pati {
+    text-align: center;
+}
+
+.progra {
+    background-color: salmon;
+}
+
+.sistemes {
+    background-color: yellow;
+}
+
+.web {
+    background-color: blue;
+}
+
+.erp {
+    background-color: lime;
+}
+
+.fol {
+    background-color: darkcyan;
+}
+
+.eie {
+    background-color: darkolivegreen;
+}
+
+.bd {
+    background-color: pink;
+}
+
+.tutoria {
+    background-color: turquoise;
+}
