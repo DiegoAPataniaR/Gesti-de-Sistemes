@@ -58,7 +58,7 @@ body {
 }
 
 .descuento {
-    width:10%;
+    width:12%;
     background-color: crimson;
     color: white;
 }
@@ -67,4 +67,72 @@ body {
     width: 100%;
     display: flex;
     gap: 10px;
+}
+
+.precio {
+    font-size:xx-large;
+    color:crimson;
+    font-family:monospace;
+    margin:6px;
+}
+
+.ul_2 {
+    padding-left:15px;
+    color:black;
+}
+
+.li1 {
+    color:green;
+}
+
+.ul1 {
+    list-style: none;
+    padding-left:20px;
+    margin-bottom: 8px;
+}
+
+.ul1 li {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.ul1 li::before {
+  content: "";
+  position: absolute;
+  left: -20px;        
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid green;
+  background-color: green;
+}
+
+.li2 {
+    color:rgb(99, 99, 99);
+}
+
+.ul2 {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.ul2 li {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.ul2 li::before {
+  content: "";
+  position: absolute;
+  left: -20px;        
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #ff7f00; 
+  background: linear-gradient(to bottom, #ffffff 50%, #ff7f00 50%);
 }
